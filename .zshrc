@@ -7,6 +7,7 @@ zstyle ':vcs_info:git:*' formats 'on %F{magenta}%b%f'
 
 setopt PROMPT_SUBST
 PS1='[%F{red}%T%f] %n %F{green}%1~%f ${vcs_info_msg_0_}  $ '
+#[21:58] ddcastro sample on master  $
 
 alias code="open -a 'Visual Studio Code'"
 alias chrome="open -a 'Google Chrome'"
